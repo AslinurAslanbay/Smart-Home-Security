@@ -1,0 +1,115 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ==============================================================================
+# ENVIRONMENTS - Virtual environments
+# ==============================================================================
+# It's recommended to use a standard name like .venv or venv
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+myenv/
+
+# ==============================================================================
+# IDE - VS Code and others
+# ==============================================================================
+.vscode/
+*.code-workspace
+.idea/
+*.swp
+*.swo
+
+# ==============================================================================
+# OPERATING SYSTEM - Windows
+# ==============================================================================
+# Windows thumbnail cache files
+Thumbs.db
+thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ==============================================================================
+# PROJECT SPECIFIC - Smart Home Security
+# ==============================================================================
+# Dataset containing real face images (User Request)
+dataset/
+faces/
+
+# Trained Models (User Request)
+# Large model files should not be committed to Git
+*.h5
+*.pkl
+*.model
+*.weights
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Temporary or intermediate files
+temp/
+tmp/
